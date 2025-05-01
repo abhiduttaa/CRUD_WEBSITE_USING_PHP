@@ -32,6 +32,12 @@ A simple and elegant web application for managing notes with full **CRUD (Create
 
 
 
+https://github.com/user-attachments/assets/00be8eb7-dc6b-411b-9f3a-115602dd31e1
+
+
+
+
+
 ## 🚀 Technologies Used
 
 - **Frontend:**
