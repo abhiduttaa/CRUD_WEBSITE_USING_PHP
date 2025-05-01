@@ -1,0 +1,83 @@
+/* style.css */
+
+/* General body styling */
+body {
+    background: #f4f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+img{
+    border-radius: 20px;
+}
+  /* Navbar */
+  .navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main container */
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    margin-top: 40px;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #0077ff;
+    border-color: #0077ff;
+    transition: all 0.3s ease;
+  }
+  .btn-primary:hover {
+    background-color: #005ce6;
+    border-color: #005ce6;
+  }
+  
+  /* Table styling */
+  table {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  thead {
+    background-color: #0077ff;
+    color: white;
+  }
+  th, td {
+    vertical-align: middle;
+  }
+  .edit, .delete {
+    min-width: 75px;
+  }
+  
+  /* Form labels */
+  .form-label {
+    font-weight: 600;
+  }
+  
+  /* Alert styling */
+  .alert {
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Modal */
+  .modal-content {
+    border-radius: 12px;
+  }
+
+ .dataTables_filter input {
+        transition: all 0.4s ease;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+
+    .dataTables_filter input:focus {
+        width: 250px;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        border-color: #80bdff;
+        outline: none;
+    }
+
